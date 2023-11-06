@@ -19,5 +19,7 @@ with app.app_context():
         )
         newsletters.append(newsletter)
 
+    
+
     db.session.add_all(newsletters)
     db.session.commit()
